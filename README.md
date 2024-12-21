@@ -27,8 +27,8 @@ Factura API es un proyecto desarrollado con FastAPI para gestionar la generació
 1. Clona este repositorio:
 
    ```bash
-   git clone https://github.com/tu-usuario/factura_api.git
-   cd factura_api
+   git clone -b 14.0 https://github.com/alejo-code/fastapi_al_soluciones/
+   cd fastapi_al_soluciones
    ```
 
 2. Crea un entorno virtual:
@@ -100,7 +100,7 @@ Una vez que la aplicación esté en ejecución, puedes acceder a la documentaci�
 ## Estructura del proyecto
 
 ```plaintext
-factura_api/
+fastapi_al_soluciones/
 ├── app/
 │   ├── __init__.py
 │   ├── main.py
@@ -114,9 +114,6 @@ factura_api/
 │   ├── routes/
 │   │   ├── __init__.py
 │   │   └── factura.py
-│   ├── core/
-│   │   ├── __init__.py
-│   │   └── config.py
 ├── requirements.txt
 └── README.md
 ```
